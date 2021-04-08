@@ -1,0 +1,7 @@
+(ns untitled.large)
+(defn large (make-array int 10)
+  (sort large)
+  println ("first largest is" (nth large 0))
+  println ("Second largest is" (nth large 1))
+  )
+(large [2,3,6,5])
